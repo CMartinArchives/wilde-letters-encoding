@@ -1,0 +1,52 @@
+<!ELEMENT corpus (letter+)>
+
+<!ELEMENT letter (header?, opener?, body, closer?)>
+<!ATTLIST letter
+    id ID #REQUIRED
+    date CDATA #IMPLIED
+    place CDATA #IMPLIED
+    type (personal|professional|spiritual) #IMPLIED
+>
+
+<!-- ===== HEADER ===== -->
+<!ELEMENT header (resp?, ms?, dateline, ref, note*)>
+<!ELEMENT resp (#PCDATA)>          <!-- addressee -->
+<!ELEMENT ms (#PCDATA)>            <!-- e.g. "MS. Clark" -->
+<!ELEMENT dateline (date?, placeName?)>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date when CDATA #IMPLIED>
+<!ELEMENT placeName (#PCDATA)>
+
+<!-- ===== REFERENCE SOURCE ===== -->
+<!ELEMENT ref (#PCDATA)>
+<!ATTLIST ref target CDATA #IMPLIED>
+
+<!-- ===== LETTER CONTENT ===== -->
+<!ELEMENT opener (salute)>
+<!ELEMENT salute (#PCDATA)>
+
+<!ELEMENT body (p+)>
+<!ELEMENT p (#PCDATA | persName | placeName | term | quote | orgName | title | note)*>
+
+<!-- ===== NOTES ===== -->
+<!ELEMENT note (#PCDATA)>
+<!ATTLIST note type (editorial|source|gloss) #IMPLIED>
+
+<!ELEMENT persName (#PCDATA)>
+<!ATTLIST persName
+    role (author|addressee|mentioned) "mentioned"
+    key CDATA #IMPLIED>
+
+<!ELEMENT orgName (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title type (work|periodical|play) #IMPLIED>
+
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term type (emotion|object|concept) #IMPLIED>
+
+<!ELEMENT quote (#PCDATA)>
+
+<!-- ===== CLOSER ===== -->
+<!ELEMENT closer (salute?, signed)>
+<!ELEMENT signed (#PCDATA | persName)*>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "wildeletters.dtd">
+
+<corpus>
+       
+    <!-- Letter 1: To Wemyss Reid -->
+    <letter id="L1" date="1887-04" place="16 Tite Street, London" type="professional">
+        <header>
+            <resp>To Wemyss Reid</resp>
+            <ms>MS. Flower</ms>
+            <dateline>
+                <date when="1887-04">[April 1887]</date>
+                <placeName>16 Tite Street, London</placeName>
+            </dateline>
+            <ref target="../sources/womansworld.txt">Source file</ref>
+        </header>
+        <opener>
+            <salute>Dear Mr Wemyss Reid,</salute>
+        </opener>
+        <body>
+            <p>[On <orgName>The Lady’s World</orgName> → toward a more <term type="concept">womanly</term> magazine beyond dress.]</p>
+            <p>[Names list e.g. <persName role="mentioned">Carmen Sylva</persName>, <persName role="mentioned">Julia Ward Howe</persName>, etc.]</p>
+        </body>
+        <closer>
+            <signed>Yours sincerely, <persName role="author">Oscar Wilde</persName></signed>
+        </closer>
+    </letter>
+    
+    <!-- Letter 2: De Profundis (extract) -->
+    <letter id="L2" date="1897" place="Reading Prison" type="spiritual">
+        <header>
+            <resp>Excerpt from De Profundis</resp>
+            <ms>[Printed edition]</ms>
+            <dateline>
+                <date when="1897">1897</date>
+                <placeName>Reading Prison</placeName>
+            </dateline>
+            <ref target="../sources/de_profundis_excerpt.txt">Source file</ref>
+            <note type="editorial">Example note placeholder</note>
+        </header>
+        <opener>
+            <salute>My Dear Bosie,</salute>
+        </opener>
+        <body>
+            <p>[“When I think about religion at all … the Confraternity of the Faithless …”]</p>
+            <p>[“… make everything that has happened to me good for me … spiritual experience …”]</p>
+        </body>
+        <closer>
+            <signed><persName role="author">Oscar Wilde</persName></signed>
+        </closer>
+    </letter>
+    
+    <!-- Letter 3: To Robert Ross -->
+    <letter id="L3" date="1899-03-01" place="Gland, Canton Vaud, Switzerland" type="personal">
+        <header>
+            <resp>To Robert Ross</resp>
+            <ms>MS. Clark</ms>
+            <dateline>
+                <date when="1899-03-01">[Circa 1 March 1899]</date>
+                <placeName>Gland, Canton Vaud, Switzerland</placeName>
+            </dateline>
+            <ref target="../sources/robbieross.txt">Source file</ref>
+        </header>
+        <opener>
+            <salute>My dear Robbie,</salute>
+        </opener>
+        <body>
+            <p>[Paragraph placeholder about visit to <placeName>Genoa</placeName> and <persName role="mentioned">Constance Mary Lloyd</persName>’s grave.]</p>
+            <p>[Placeholder about <persName role="mentioned">Eolo</persName>, <placeName>Spezia</placeName>, and the bicycle joke.]</p>
+        </body>
+        <closer>
+            <salute>Do write again soon.</salute>
+            <signed>Ever yours, <persName role="author">Oscar</persName></signed>
+        </closer>
+    </letter>
+    
+</corpus>
