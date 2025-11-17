@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "wildeletters.dtd">
+
+<corpus>
+    
+    <letter id="L3" date="1897-05-28" place="Berneval-sur-Mer, France" type="personal">
+        
+        <header>
+            <resp>To Major J. O. Nelson</resp>
+            <ms>NYPL Digital Collections, Berg Collection</ms>
+            <dateline>
+                <date when="1897-05-28">28 May 1897</date>
+                <placeName>Berneval-sur-Mer</placeName>
+            </dateline>
+            <ref target="../assignment1/sources/nelson.txt">Source file</ref>
+        </header>
+        
+        <opener>
+            <salute>Dear Major Nelson,</salute>
+        </opener>
+        
+        <body>
+            <p>[Wilde expresses gratitude for Nelson’s kindness at Reading Gaol.]</p>
+            <p>[Reflects on gratitude, suffering, and the emotional impact of imprisonment.]</p>
+            <p>[Discusses the publication of his open letter on the “Martin” case.]</p>
+            <p>[Mentions conditions in prison and his sympathy for fellow inmates.]</p>
+            <p>[States he is not ashamed of prison, only of the materialistic life that led him there.]</p>
+            <p>[Ends by calling himself Nelson’s sincere and grateful friend.]</p>
+        </body>
+        
+        <closer>
+            <signed>Your sincere and grateful friend,<persName role="author"> Oscar Wilde</persName></signed>
+        </closer>
+        
+    </letter>
+    
+</corpus>

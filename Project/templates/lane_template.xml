@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "wildeletters.dtd">
+
+<corpus>
+    <letter id="L1" date="1894-08" place="Worthing" type="professional">
+        <header>
+            <resp>To John Lane</resp>
+            <ms>Morgan Library &amp; Museum, MA 7258.14</ms>
+            <dateline>
+                <date when="1894-08">August 1894</date>
+                <placeName>Worthing</placeName>
+            </dateline>
+            <ref target="../assignment1/sources/lane.txt">Source file</ref>
+            <!-- <note type="editorial">Optional editorial note here.</note> -->
+        </header>
+        <opener>
+            <salute>Dear Sir,</salute>
+        </opener>
+        <body>
+            <p>[Placeholder for paragraph 1 of the Lane letter]</p>
+            <p>[Placeholder for paragraph 2 etc.]</p>
+        </body>
+        <closer>
+            <signed>Yours truly, <persName role="author">Oscar Wilde</persName></signed>
+        </closer>
+    </letter>
+</corpus>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "wildeletters.dtd">
+
+<corpus>
+    
+    <letter id="L2" date="1897" place="Berneval-sur-Mer, France" type="personal">
+        
+        <header>
+            <resp>To Henrietta Stannard</resp>
+            <ms>Trinity College Dublin Digital Collections</ms>
+            <dateline>
+                <date when="1897">May–September 1897</date>
+                <placeName>Berneval-sur-Mer</placeName>
+            </dateline>
+            <ref target=".../assignment1/sources/stannard.txt">Source file</ref>
+        </header>
+        
+        <opener>
+            <salute>Dear Mrs Stannard,</salute>
+        </opener>
+        
+        <body>
+            <p>[Wilde thanks her for her sympathetic message conveyed by her husband.]</p>
+            <p>[Reflects on the suffering of imprisonment and acknowledges his former life as “unworthy of an artist.”]</p>
+            <p>[Mentions his mother and Stannard’s admiration for her.]</p>
+            <p>[Describes his quiet life in a small inn by the sea and his use of the pseudonym Sebastian Melmoth.]</p>
+            <p>[Asks that his location remain completely secret and sends verses as thanks.]</p>
+        </body>
+        
+        <closer>
+            <signed>Yours,<persName role="author"> Oscar Wilde</persName></signed>
+        </closer>
+        
+    </letter>
+    
+</corpus>
+
