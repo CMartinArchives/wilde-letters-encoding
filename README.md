@@ -1,4 +1,4 @@
-# Encoding Project Portfolio — Assignment 1  
+# Wilde Correspondence Encoding Project — ReadMe (Assignment 1)
 **Student:** Clara Martin  
 **Course:** *Modelling Humanities Data with TEI-XML*  
 **Instructor:** Dr. Katarzyna Anna Kapitan  
